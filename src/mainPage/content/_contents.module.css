@@ -1,0 +1,76 @@
+.img {
+  height: 23vh;
+  width: 19vw;
+  border-radius: 5%;
+}
+
+.next1 {
+  position: absolute !important;
+    top: 90% !important;
+    left: 98% !important;
+    border: none;
+    background-color: rgb(166, 162, 162);
+    cursor: pointer;
+    height: 3em;
+    width: 3em;
+    border-radius: 100%;
+}
+
+.prev1 {
+  position: absolute !important;
+         top: 90% !important;
+    left: -1.5% !important;
+        border: none;
+  background-color: rgb(166, 162, 162);
+  z-index: 1;
+  cursor: pointer;
+  height: 3em;
+  width: 3em;
+  border-radius: 100%;
+}
+
+.slide {
+  padding-right: 10px;
+  padding-left: 0.6%;
+  margin-top: 0.2%;
+}
+
+.cont {
+  /* height: 48.5vh; */
+  height: 100%;
+  width: 100%;
+  /* background-color: blue; */
+}
+#container {
+  /* margin-top: 70px; */
+  /* background-color: rgb(245, 193, 193); */
+  height: 46vh;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  margin-top: -3%;
+  padding:0 1.5em;
+  width: 69em;
+}
+
+.tittle1 {
+  /* margin-left: 2%; */
+  position: relative;
+  top: 15px;
+  font-size: 1.25em;
+  margin: 4% 3%;
+}
+
+h6 {
+  position: relative;
+  top: -15px;
+  left: 10px;
+  font-size: 0.8em;
+}
+
+h5 {
+  position: relative;
+  top: -30px;
+  left: 9px;
+  font-size: 1.03em;
+}

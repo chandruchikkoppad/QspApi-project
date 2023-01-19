@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya&family=Alfa+Slab+One&family=Barlow&family=Carter+One&family=Heebo:wght@300;800&family=Lato&family=Monoton&family=Montserrat:wght@400;500&family=Orbitron:wght@500&family=Oswald:wght@300&family=Philosopher:ital@1&family=Rubik+Dirt&family=Secular+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya&family=Alfa+Slab+One&family=Barlow&family=Carter+One&family=Heebo:wght@300;400;800&family=Lato&family=Monoton&family=Montserrat:wght@400;500&family=Orbitron:wght@500&family=Oswald:wght@300&family=Philosopher:ital@1&family=Rubik+Dirt&family=Secular+One&display=swap');
+
+.cardSec1{
+      width: 100%;
+      height: 10vh;
+      background-color: rgb(245,244,248);
+      padding-bottom: 3%;
+}
+.cardSec1 h2{
+        font-family: "Heebo", sans-serif;
+        font-weight: normal;
+        padding-top: 50px;
+        padding-left: 14.3%;
+        padding-bottom: 15px;
+
+}
+.cardSub1{
+      width: 75%;
+      margin: auto;
+      display: flex;
+      justify-content: space-evenly;
+}
+
+.courseName{
+      font-size: 18px;
+      text-decoration: none;
+      color: black;
+        font-family: "Heebo", sans-serif;
+}
+
+.courseName:hover{
+      color: rgb(109, 66, 211);
+      
+}
+
+.guideBlock{
+      height: 5vh;
+      width: inherit;
+      margin: 0 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.guideBlock span{
+      display: flex;
+      align-items: center;
+}
+

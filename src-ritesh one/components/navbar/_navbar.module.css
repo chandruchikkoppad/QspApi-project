@@ -1,0 +1,41 @@
+.nav {
+  width: 100vw;
+  height: 55px;
+  background-color: rgb(38, 38, 38);
+  position: relative;
+}
+
+.logoBlock {
+  position: relative;
+  left: 1%;
+  top: -6px;
+    background-image: url(./assets/logo12.jpeg);
+  background-size: cover;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+.logoBlock a {
+  text-decoration: none;
+  color: white;
+}
+.btn {
+  position: relative;
+  left: 92.5%;
+  top: -40px;
+}
+
+.btn1 {
+  padding: 8px 20px;
+  color: white;
+  background-color: rgb(130, 180, 64);
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+}
+.btn1:hover {
+  background-color: rgb(99, 142, 43);
+  cursor: pointer;
+}

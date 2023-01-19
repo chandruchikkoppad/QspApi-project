@@ -1,0 +1,243 @@
+/* header{ */
+/* height: 15vh; */
+/* width: 100vw; */
+/* background-color: black; */
+/* position: fixed; */
+/* display: flex; */
+/* align-items: center; */
+/* justify-content: space-between; */
+/* padding:0 2%; */
+/* } */
+
+.Pages1{
+max-width: 100vw;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: -56px;
+}
+.navheader{
+    width: 100vw;
+    height: 16vh;
+    margin-bottom: -56px;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    /* background-color: aqua; */
+}
+.header article{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    /* border-bottom: .5px solid grey; */
+}
+
+#mainNav1{
+    display: flex;
+     align-items: center;
+    flex-basis: 65%;
+    margin-left: 2%;
+    margin-top: 1%;
+   
+}
+#mainNav1 div ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    margin: 0 15px;
+    align-items: center;
+    
+}
+#mainNav1 div ul li{
+     margin: 0 10px;
+     cursor: pointer;
+     font-weight: 600;
+}
+.searchdiv{
+    display: flex;
+    flex-basis: fill;
+    align-items: center;
+}
+#search{
+       margin: 0 7em;
+    position: absolute;
+    width: 23em;
+    left: 37.5em;
+    top: 0.5em;
+    height: 7vh;
+    padding:12px 20px 14px 40px;
+    border-radius:5px;
+    border: 0.5px solid grey;
+}
+.searchdiv svg{
+    position: absolute;
+    left: 45%;
+    top: 3.5%;
+}
+button{
+    font-weight: 700;
+}
+.navheader .whiteBtn{
+    padding:1em 1.2em;
+    margin-right: .5em;
+    background-color: white;
+    box-shadow: 1px 1px 3px grey;
+    border: none;
+        border-radius: 5px;
+            position: absolute;
+    right: 5px;
+    top: 2%;
+}
+.navheader .blueBtn{
+    padding:1em 1.2em;
+    background-color: rgb(117,79,254);
+    border: none;
+    border-radius: 5px;
+    color: white;
+        position: relative;
+    top: -2.6em;
+}
+.navheader .greenBtn{
+     padding:1em 1.2em;
+    background-color: rgb(25,200,150);
+    border: none;
+    border-radius: 5px;
+    color: white;
+     margin-right: .5em;
+         position: relative;
+    bottom: 36px;
+ }
+.whiteBtn{
+    padding:1em 1.2em;
+    margin-right: .5em;
+    background-color: white;
+    box-shadow: 1px 1px 3px grey;
+    border: none;
+        border-radius: 5px;
+}
+.blueBtn{
+    padding:1em 1.2em;
+    background-color: rgb(117,79,254);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.buttons .login{
+    position: absolute;
+    right: 8%;
+}
+.landing1{
+    width: 100vw;
+    height: 62%;
+    background: rgb(117,79,254);
+    display: flex;
+    margin: ;
+ }
+.landing1 .content{
+flex-basis: 50%;
+    padding: 5% 3% 5% 10%;
+}
+.landing1 .content h1{
+    font-size: 2.6em;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    font-family: Inter,sans-serif;
+    color: white;
+}
+.landing1 .content p{
+    color: lightgray;
+    font-size: 1.4em;
+    margin-bottom:1em ;
+}
+.landing1 .hero{
+    flex-basis: 50%;
+    height: 100%;
+    width: 40%;
+    background-image: url(https://geeks.madrasthemes.com/wp-content/uploads/2021/09/hero-img.png);
+    background-repeat: no-repeat;
+ }
+ .greenBtn{
+     padding:1em 1.2em;
+    background-color: rgb(25,200,150);
+    border: none;
+    border-radius: 5px;
+    color: white;
+     margin-right: .5em;
+ }
+ .bottomBar{
+    height: 20vh;
+    margin-bottom: 0;
+ }
+ .bottomBar article {
+        padding: 0 12em;
+        border-bottom: 1px solid;
+ }
+  .bottomBar article div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ .bottomBar article div .icon{
+    height: 3em;
+    width: 3em;
+    background-color: rgb(252, 160, 160);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .bottomBar h3{
+    margin-left: 0.3em;
+ }
+ .bottomBar p{
+    margin-top: 5px;
+ }
+ 
+ ul{
+    list-style: none;
+ }
+ li{
+    line-height: 2em;
+ }
+ li:hover.browse{
+    display: block;
+ }
+
+ /*! --------------------------------------------------DropDown----------------------------------------------- */
+ .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown_content a {
+  color: black;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown_content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    /* background-color: #3e8e41; */
+}

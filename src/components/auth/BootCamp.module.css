@@ -1,0 +1,79 @@
+.BootCamp{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.BootCamp article{
+
+}
+.BootCamp article h1{
+    position: relative;
+    top: 27px;
+   left: 423px;
+    font-weight: 900;
+    font-size: 32px;
+    color: rgb(117,79,254);
+        text-decoration-line: underline;
+        margin-bottom: 1em;
+}
+.BootCamp article form{
+ /* margin: 5% 35%; */
+ /* display: flex; */
+ /* flex-direction: column; */
+ /* justify-content: center; */
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+.BootCamp article form div{
+    display: flex;
+    flex-direction: column;
+        width: 18em;
+    margin: 1em auto;
+    position: relative;
+    /* background-color: burlywood; */
+    
+}
+.BootCamp article form div label{
+   
+}
+.BootCamp article form div input{
+    height: 3em;
+border: none;
+border-bottom: 1px solid;
+text-align: center;
+}
+.BootCamp article form div textarea{
+        width: 23em;
+    }
+.BootCamp article form div select{
+            height: 39px;
+    border: none;
+    border-bottom: 0.5px solid;
+    text-align: center;
+}
+.BootCamp article form div button{
+    display: block;
+    padding: 20px 120px 20px 127px;
+    margin-right: 12px;
+    border-radius: 10px;
+    background-color: rgb(117,79,254);
+    color: white;
+    font-size: 1em;
+    padding-right: 11em;
+    border: none;
+}      
+
+.BootCamp article form div img{
+        width: 150px;
+    height: 90px;
+    margin-left: 50px;
+    position: absolute;
+    z-index: 2;
+    top: 27em;
+    left: 41em;
+}

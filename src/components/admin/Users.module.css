@@ -1,0 +1,31 @@
+.tableSection{
+    width: 100%;
+    height: 100%;
+       margin: auto;
+       /* background-color: aquamarine; */
+       padding: 1em 1.2em;
+}
+.tableArticle{
+    /* background-color: aqua; */
+    border-radius: 5px;
+ 
+}
+table{
+    border-radius: 10px;
+}
+table, th, td {
+  border: 1px solid ;
+  text-align: center;
+  border-collapse: collapse;
+}
+table tr:nth-of-type(odd){
+    height: 2.7em;
+    /* background-color: rgb(204, 208, 218); */
+}
+table tr:nth-of-type(even){
+    height: 2.7em;
+    /* background-color: rgb(169, 178, 196); */
+}
+th{
+    background-color: rgb(117,79,254);
+}

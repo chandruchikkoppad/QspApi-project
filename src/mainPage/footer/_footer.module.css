@@ -1,0 +1,26 @@
+.footersection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    width: 100vw ;
+    border-top: .5px solid rgb(218, 210, 210);
+}
+.footersection .TermsCondition ul{
+ display: flex;
+ list-style: none;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.footersection .TermsCondition ul li{
+        margin: 0 1em;
+}
+.footersection .TermsCondition ul li a{
+        text-decoration: none;
+        color: gray;
+}
+.footersection .CopyRight{
+font-weight: 500;
+    color: gray;
+}

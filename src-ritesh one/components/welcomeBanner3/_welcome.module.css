@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya&family=Alfa+Slab+One&family=Barlow&family=Carter+One&family=Heebo:wght@800&family=Lato&family=Monoton&family=Montserrat:wght@400;500&family=Orbitron:wght@500&family=Oswald:wght@300&family=Philosopher:ital@1&family=Rubik+Dirt&family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya&family=Alfa+Slab+One&family=Barlow&family=Carter+One&family=Heebo:wght@300;800&family=Lato&family=Monoton&family=Montserrat:wght@400;500&family=Orbitron:wght@500&family=Oswald:wght@300&family=Philosopher:ital@1&family=Rubik+Dirt&family=Secular+One&display=swap");
+
+#banner {
+  width: 100%;
+  height: 412px;
+  background-color: rgb(117, 79, 254);
+}
+.bannerWid {
+  width: 95vw;
+  margin: auto;
+}
+.bannerTitle h2 {
+  margin-left: 150px;
+  line-height: 52px;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 48px;
+  font-family: "Heebo", sans-serif;
+}
+
+.bannerTitle p {
+  margin-left: 150px;
+  color: rgb(176, 163, 255);
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.hero {
+  /* margin-left: 750px; */
+  margin-top: -346.5px;
+  float: right;
+  margin-right: 114px;
+}
+
+.CourseBtn {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: rgb(25, 203, 152);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 150px;
+}
+
+.CourseBtn:hover {
+  background-color: rgb(21, 167, 126);
+  cursor: pointer;
+}
+
+.InstructorBtn {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.InstructorBtn:hover {
+  cursor: pointer;
+}

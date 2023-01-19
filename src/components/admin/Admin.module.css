@@ -1,0 +1,257 @@
+#profileBlock{
+    border-top: 1px solid;
+}
+
+#profileBlock article{
+   display: flex;
+   height: 90vh;
+  
+}
+.sidebarProfile{
+        flex-basis: 18%;
+    background: #efefef;
+    position: sticky;
+    top: 0;
+}
+.mainProfileBlock{
+    flex-basis: 80%;
+    background: #fff;
+}
+.mainProfileBlock article{
+    display: flex;
+    flex-direction: column;
+}
+.mainProfileBlock aside{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.mainProfileBlock > h1, .profilePhotoBlock > h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    color: #9c27b0;
+    margin: 0px 0px 10px;
+    padding: 10px;
+    text-shadow: 1px 0px 0px #3f51b5;
+    border-bottom: 1px solid #efefef;
+    background: #efefef66;
+    
+}
+.mainProfileBlock aside figure img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    padding: 0px;
+
+}
+.mainProfileBlock aside h1{
+    padding: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 23px;
+    
+}
+.mainProfileBlock aside main h4{
+    font-size: 16px;
+    color: #555;
+    letter-spacing:1.5px;
+    font-weight: lighter;
+
+}
+.sidebarProfile ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+   
+}
+.sidebarProfile ul li a{
+    width: 100%;
+    padding: 14px;
+    background-color: #fff;
+    margin: 0px 0;
+    display: block;
+    text-decoration: none;
+    color: rgb(117,79,254);
+    border-bottom: 1px solid #ccc;
+    text-transform: capitalize;
+    transition: ease all 0.7s;
+    text-align: center;
+        font-weight: 900;
+    font-size: larger;
+}
+.sidebarProfile ul li a:hover{
+    background-color: rgb(117,79,254);
+    color: white;
+}
+.asideIcon{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.asideIcon main{
+    position: absolute;
+    background: #3f51b5;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    cursor: pointer;
+    transition: ease all 0.7s;
+}
+
+.asideIcon:hover main{
+    opacity: 1;
+
+}
+.asideIcon a{
+    color: #fff;
+}
+.mainProfileBlock > article{
+    text-align: center;
+    padding: 20px;
+}
+.profilePhotoBlock > article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    flex-direction: column;
+    text-align: center;
+    height: 30vh;
+    padding: 20px 0;
+
+}
+.profilePhotoBlock form label{
+    display: block;
+    padding: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #888;
+}
+.profilePhotoBlock form input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.profilePhotoBlock form button,.profileForm button{
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 40px ;
+    cursor: pointer;
+    color: #fff;
+    background-color: #6739b7;
+    color: #fff ;
+    border: 1px solid #6739b7;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.profilePhotoBlock form button:hover{
+    background-color: transparent;
+    color: #6739b7;
+    border: 1px solid #6739b7;
+}
+.profilePhotoBlock figure img{
+    width: 200px;
+    height: 200px;
+}
+.progress{
+    width: 99%;
+    background: #4caf50;
+    color: #fff;
+    padding: 10px;
+    margin: 13px;
+    display: block;
+    border-radius: 3px;
+    border: 1px solid #8bc34a;
+    
+  
+}
+.profileForm{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.profileForm div{
+    flex-basis: 24%;
+    padding: 10px;
+    background-color: #efefef;
+}
+#textArea{
+    flex-basis: 100%;
+}
+.profileForm div label{
+    width: 100%;
+    display: block;
+    padding: 5px 0;
+    color: #111;
+    font-size: 15px;
+    font-weight: 500;
+}
+.profileForm div input[type="text"].profileForm div textArea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.profileForm div span{
+    padding: 5px 10px;
+    color:#6739b7;
+    margin: 2px 4px;
+
+}
+.profileUser {
+  text-align: center;
+  padding: 10px 40px;
+  background: #efefef57;
+  color: #3f51b5;
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 300;
+  margin: 10px 0;
+}
+.profileUser p {
+  padding: 10px 0;
+}
+ 
+
+/* !------------------------------------------------------------------------------------------------- */
+.dashboard{
+width: 100%;
+height: 100%;
+}
+.dashboard .noofuser{
+width: 20%;
+height: 30%;
+background-color: burlywood;
+border-radius: 10px;
+padding: 1em;
+line-height: 2em;
+    margin: 55px 93px;
+}
+.dashboard .noofuser h3 div {
+    position: absolute;
+    z-index: 2;
+    top: 171px;
+    left: 509px;
+}
+hr{
+    color: red;
+}
+
